@@ -6,9 +6,9 @@
   </div>
 
  - Correr en servidor local: 
-
      > **cd MiProjectoDjango/** 
-	 > **python manage.py runserver**
+	 
+     > **python manage.py runserver**
 
 ## Version 0.1
 - Mejoras en los estilos CSS
