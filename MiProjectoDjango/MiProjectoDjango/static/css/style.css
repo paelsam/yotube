@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+html {
+  font-family: "Poppins", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.icon > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* Deshabilitamos la seleccion del logo */
+.disable-selection {  
+  user-select: none;
+}
+
+.icon > a > img {
+  width: 4em;
+  height: 4em;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(173, 42, 42);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+nav h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 10px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.iframe {
+  margin: 0;
+  padding: 0;
+  border: 5px solid rgb(173, 42, 42);
+}
+footer {
+  /* Footer modo fixed */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(173, 42, 42);
+  color: white;
+  padding: 1em;
+}
+
+.footer {
+  background-color: rgb(173, 42, 42);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+.footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
